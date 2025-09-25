@@ -28,7 +28,7 @@ def parse_level_1_actions(
             last_action=None, raw_logs=coauthor_logs_by_session[session]
         )
 
-        actions_lst, last_action = actions_analyzer.parse_actions_from_logs(
+        actions_lst, _ = actions_analyzer.parse_actions_from_logs(
             all_logs=coauthor_logs_by_session[session], last_action=None
         )
 
